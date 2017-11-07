@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>首页-HuanYu Logistics</title>
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/jquery-ui.css">
+	 <link rel="stylesheet" href="css/header.css">
+ </head>
+ <style>
+	#header{
+		margin-bottom:8px;
+	}
+ </style>
+ <body>
+	<div class="main">
+		<!----------------加载header部分----------
+		<header id="header">
+			<iframe src="02-header.html" frameborder="0" style="overflow:visible"></iframe>
+		</header>
+		----->
+
+		<header id="header" class="header">
+			<div class="links">
+				<ul>
+					<li>
+						<a href="#">收藏环宇</a>
+					</li>
+					<li class="fr nl">
+						<a href="/en/">English</a>
+					</li>
+					<li class="fr ">
+						<a href="/hk/">繁體</a>
+						<span class="line1">|</span>
+					</li>
+					<li class="fr current">
+						<a href="javascript:void(0);">简体</a>
+						<span class="line2">|</span>
+					</li>
+					<li class="fr nl notLogin">
+						<a href="/user/toregist.action" rel="nofollow">注册</a>
+					</li>
+					<li class="fr notLogin">
+						<a href="/user/toregist.action" rel="nofollow">登录</a>
+						<span class="line3">|</span>
+					</li>
+					<li class="fr login" style="display:none;">
+						<span class="currentTime"></span>
+						<font>
+							<a style="color:#fbb100;" href="/user/touserinfo.action" class="userName1" id="uname1">
+							</a>
+						</font> !
+						<a href="javascript:;" class="Safetyexit" id="ifFisKeycustomert">【退出】</a>
+					</li>
+					<li class="fr">
+						<a style="text-decoration: none;" href="javascript:openOSS()">在线客服</a>
+						<span class="line4">|</span>
+					</li>
+					<li class="fr">
+						<a href="http://zhaopin.deppon.com">环宇招聘</a>
+						<span class="line5">|</span>
+					</li>
+
+				</ul>
+			</div>
+			<div class="search">
+				<img src="img/bg-header-ph.png" id="img">
+				<span>0431-4567</span>
+				<input type="text" placeholder="站内搜索">
+				<a href="#">
+					<img src="img/search.png">
+				</a>
+
+
+			</div>
+			<div class="nav" id="menu">
+				<ul>
+					<li class="menua current">
+						<a href="#" style="color:#fff">首页</a>
+					</li>
+					<li>
+						<a href="#">我的环宇</a>
+						<ul class="menuSenc menuSenc1">
+							<li>
+								<label>
+									<a href="#">我的订单</a>
+								</label>
+							</li>
+							<li>
+								<label>
+									<a href="#">更改管理</a>
+								</label>
+							</li>
+							<li>
+								<label>
+									<a href="#">我的账单</a>
+								</label>
+							</li>
+							<li>
+								<label>
+									<a href="#">在线理赔</a>
+								</label>
+							</li>
+							<li>
+								<label>
+									<a href="#">站内消息</a>
+								</label>
+							</li>
+							<li>
+								<label>
+									<a href="#">电子发票</a>
+								</label>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">网上托运</a>
+						<ul class="menuSenc menuSenc2">
+							<li>
+								<label>
+									<a href="#">批量下单</a>
+								</label>
+							</li>
+							<li>
+								<label>
+									<a href="#">价格/时效</a>
+								</label>
+							</li>
+							<li>
+								<label>
+									<a href="#">网点查询</a>
+								</label>
+							</li>
+							<li>
+								<label>
+									<a href="#">收送范围</a>
+								</label>
+							</li>
+							<li>
+								<label>
+									<a href="#">禁运品</a>
+								</label>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">货物追踪</a>
+					</li>
+					<li>
+						<a href="#">业务介绍</a>
+						<ul class="menuSenc menuSenc3">
+							<li>
+								<label>
+									<a href="#">主营产品</a>
+								</label>
+							</li>
+							<li>
+								<label>
+									<a href="#">环宇跨境</a>
+								</label>
+							</li>
+							<li>
+								<label>
+									<a href="#">增值服务</a>
+								</label>
+							</li>
+							<li>
+								<label>
+									<a href="#">市场活动</a>
+								</label>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">帮助与支持</a>
+						<ul class="menuSenc menuSenc4">
+							<li>
+								<label>
+									<a href="#">客户专区</a>
+								</label>
+							</li>
+							<li>
+								<label>
+									<a href="#">常见问题</a>
+								</label>
+							</li>
+							<li>
+								<label>
+									<a href="#">下载中心</a>
+								</label>
+							</li>
+							<li>
+								<label>
+									<a href="#">投诉/咨询</a>
+								</label>
+							</li>
+							<li>
+								<label>
+									<a href="#">在线客服</a>
+								</label>
+							</li>
+							<li>
+								<label>
+									<a href="#">隐私政策</a>
+								</label>
+							</li>
+							<li>
+								<label>
+									<a href="#">网站地图</a>
+								</label>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">关于环宇</a>
+						<ul class="menuSenc menuSenc5">
+							<li>
+								<label>
+									<a href="#">公司概述</a>
+								</label>
+							</li>
+							<li>
+								<label>
+									<a href="#">新闻办公</a>
+								</label>
+							</li>
+							<li>
+								<label>
+									<a href="#">人才招聘</a>
+								</label>
+							</li>
+							<li>
+								<label>
+									<a href="#">练习环宇</a>
+								</label>
+							</li>
+							<li>
+								<label>
+									<a href="#">开放平台</a>
+								</label>
+							</li>
+							<li>
+								<label>
+									<a href="#">企业视频</a>
+								</label>
+							</li>
+							<li>
+								<label>
+									<a href="#">供应商</a>
+								</label>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">合伙人申请</a>
+						<ul class="menuSenc menuSenc6">
+							<li>
+								<label>
+									<a href="#">开放区域</a>
+								</label>
+							</li>
+							<li>
+								<label>
+									<a href="#">在线申请</a>
+								</label>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+
+		</header>
+
+
+		<!-----------------banner部分-------------->
+		<div id="banner">
+			<!--1.图片区域-->
+			<ul class="banner-img" id="banner-img" style="transition:all .3s linear;" data-load="bannerImgs">
+				<!--
+				<li>
+					<a href="${p.href}" title="${p.title}">
+						<img src="${p.img}">
+					</a>
+				</li>
+				-->
+			</ul>
+			<!--左右方向按钮-->
+			<a href="#" class="ck-slide ck-left" data-move="left"></a>
+			<a href="#" class="ck-slide ck-right" data-move="right"></a>
+			<!--3.导航小圆点-->
+			<ul class="indicators" id="indicators" data-load="bannerInds">
+				<!--<li></li>-->
+
+			</ul>
+		</div>
+		<!--------------页面内容-------------------->
+		<div class="content clearfix ts-index">
+			<!----------左侧区域--------------->
+			<div class="siderBar">
+				<div class="blo ts-orderform subMeuBottom">
+					<div class="bc" id="loginInfo">
+						<div class="title commonReMini">
+							<h3>登录我的环宇</h3>
+						</div>
+						<div class="title scanRe">
+							<h3>扫码登录</h3>
+						</div>
+						<input type="text" value="用户名/email/手机号" class="textinput inputFocus iGrays" id="userName">
+						<input type="password" value class="textinput inputFocus iGrays" id="password">
+						<label class="Usercode">
+							<input type="text" class="Codeinput inputFocus iGrays" value="验证码" id="ckCodes">
+							<img id="authCode" onclick style src>
+						</label>
+						<div>
+							<span class="leftspan">
+								<input type="checkbox" id="remeberNameCheck" onchange>
+								记住用户名
+							</span>
+							<span class="rightspan">
+								<a href="#">忘记密码?</a>
+							</span>
+						</div>
+						<input type="button" class="ts-submit tosnmiddle_btns" value="登录" onclick="remeber()">
+						<hr style="width:198px;border-top:1px dashed #0066cc;">
+						<div style="text-aling:center;margin-top:5px;margin-left:35px;">
+							<span style="vertical-align:middle">
+								使用合作账号登录:
+							</span>
+							<a href="#">
+								<img src="img/Connect_logo_1.png" style="cursor:pointer;margin-left:10px;">
+							</a>
+							<a href="#">
+								<img src="img/sina_logo.png" style="cursor:pointer;margin-left:10px;">
+							</a>
+						</div>
+					</div>
+				</div>
+				<a href="#">
+					<div class="indexBuy tosnBig tosnBig_mouseover">网上下单</div>
+				</a>
+				<a href="#">
+					<div class="indexBuy tosnBig tosnBig_mouseover">新客户专区</div>
+				</a>
+				<div class="bcm">
+					<h3 style="background:#0aa1ed;color:#fff;border-radius:5px;margin:5px 3px;">快速入口</h3>
+					<ul>
+						<li class="zhengche">
+							<a href="#">
+								<span class="ts-suo"></span>
+								<span class="icobg"></span>
+								<span class="text">整车运输</span>
+							</a>
+						</li>
+						<li class="UploadOrder">
+							<a href="#">
+								<span class="ts-suo"></span>
+								<span class="icobg"></span>
+								<span class="text">订单管理</span>
+							</a>
+						</li>
+						<li class="TemplatesDown">
+							<a href="#"> 
+								<span class="ts-suo"></span>
+								<span class="icobg"></span> 
+								<span class="txt">我要支付</span> 
+							</a>
+						</li>
+						<li class="billpay">
+							<a href="#">
+								<span class="ts-suo"></span> 
+								<span class="icobg"></span> 
+								<span class="txt">已有账单</span> 
+							</a>
+						</li>
+						<li class="take">
+							<a href="#"> 
+								<span class="ts-suo"></span> 
+								<span class="icobg"></span> 
+								<span class="txt">模板管理</span> 
+							</a>
+						</li>
+						<li class="takeorder">
+							<a href="#">
+								<span class="ts-suo"></span> 
+								<span class="icobg"></span> 
+								<span class="txt">在线理赔</span> 
+							</a>
+						</li>
+						<li>
+							<a href="waybillchange/waybillchgIndex.action">		<span class="ts-suo"></span> 
+								<span class="ts-rdgif"></span> 
+								<span class="txt">更改申请</span> 
+							</a>
+						</li>
+						<li>
+							<a href="javascript:toFPSSystem()"> 
+								<span class="ts-suo"></span> 
+                                <span class="ts-fps"></span> <span class="txt">金融服务</span> 
+							</a>
+						</li>
+						<li>
+							<a href="/supplier/information.html" target="_blank"> 
+								<span class="ts-suo"></span> 
+								<span class="ts-srm"></span> 
+								<span class="txt">供应商</span> 
+							</a>
+						</li>
+						<li>
+							<a href="../otherlogin/b2bLogin.action" target="_blank"> 
+								<span class="ts-suo"></span> 
+								<span class="ts-bb"></span> 
+								<span class="txt">B2B系统</span> 
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="blo bcontact">
+					<div class="selecteWay">
+						<ul class="clearfix" id="tabs">
+							<li class="s1">
+								<a href="#" class="current">环宇公告</a>
+							</li>
+							<li class="s2">
+								<a href="#">环宇动态</a>
+							</li>
+						</ul>
+						<hr style="width:226px;border:1px solid #0aa1ed;margin-top:2px;">
+					</div>
+					<div class="selecteWayTab" id="tabsCont">
+						<div>
+							<ul>
+								<li>
+									<a href="/news/201710/12838.html" title="“卡努”台风预警告客户书">
+										<span>
+											<span>“卡努”台风预警告客户书</span>
+											<img src="img/smallMark/index-hot.png" style="padding-top: 5px; width: 23px; border-bottom-width: 0px;
+												 margin-top: 0px; margin-bottom: 20px;">
+										</span>
+									</a>
+								</li>
+								<li>
+									<a href="/news/201709/12818.html" title="德邦2017年“中秋节、国庆节”假期收派服务安排">
+										<span>
+											<span>环宇2017年“中秋节、国庆节</span>
+											<img src="img/smallMark/index-hot.png" style="padding-top: 5px; width: 23px; border-bottom-width: 0px;
+												 margin-top: 0px; margin-bottom: 20px;">
+										</span>
+									</a>
+								</li>
+								<li>
+									<a href="/news/201708/12798.html" title="关于德邦客服热线95353人工服务时间调整为8:00-23:00告客户书">
+										<span>
+											<span>关于环宇客服热线95353人工</span>
+											<img src="img/smallMark/index-hot.png" style="padding-top: 5px; width: 23px; border-bottom-width: 0px;
+												 margin-top: 0px; margin-bottom: 20px;">
+										</span>
+									</a>
+								</li>
+								<li>
+									<a href="/news/201707/12779.html" title="暴雨公告">
+										<span>
+											<span>暴雨公告</span>
+										</span>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class=main>
+				<div class="indexsearch clearfix">
+					<div>
+						<span class="sleft"></span>
+						<span class="scenter">
+							<h2>货物追踪</h2>
+							<form action="/new/track/" method="get" class="cargotracking" id="trackForm">
+								<p>
+									<textarea name="billStr" style="overflow-y:auto;" id="ordernum" class="textarea inputFocus iGrays" ov="请输入运单号">请输入运单号</textarea>
+								</p>
+								<p class="inputop"> 
+									<input type="button" value="查询" style="margin-left:123px" class="cargobutton butleft tosnsmall_btn searchnumber tosnsml_mouseover">
+								</p>
+								<p class="pfont inputop">最近查询记录</p>
+								<p id="orderRecords" style="display: none;"></p>
+								<p class="norder" id="noRecords">
+									<b>您最近没有查询记录</b>
+								</p>
+							</form>
+						</span>
+						<span class="sright"></span>
+						<span class="sbottom"></span>
+					</div>
+					<div>
+						<span class="sleft"></span>
+						<span class="scenter">
+							<h2>网点查询</h2>
+							<form id="cityfrom" action="/new/dept/" method="get" class="cargotracking">
+								<p>
+									<label class="newprocitySel"> <input name="" id="start1" autocomplete="off" type="text" value="请选择/输入城市名称" class="city_input  inputFocus proCityQueryAll proCitySelAll wdSendAddress iGrays" ov="请选择/输入城市名称"> </label>
+								</p>
+								<input name="start" id="start" style="display: none;"> 
+								<input name="desti" value="" style="display: none;">
+								<p class="inputop">
+                                    <input name="type" type="radio" value="1" checked="checked" style="margin-left:5px;">零担
+                                    <input name="type" type="radio" value="2" style="margin-left: 10px;">快递
+									<input name="" type="submit" value="查询" class="cargobutton butseach tosnsmall_btn intbotn" style="margin-left:25px;">
+								</p>
+								<p class="pfont inputop">
+									网点信息: 点击 <a href="/wangdian/"><label class="signee3"></label><font style="color: #fbb100;" class="zt_changered" id="countDepts">查看全国</font> 
+									</a>
+								</p>
+								<ul class="shopMess">
+									<dl id="latest-depts" style="width: 188px;">
+										<font style="color: #fbb100;"> <a style="color: #fbb100;" href="../user/coupons.action">新点开业,点击领取优惠券&gt;&gt;</a>
+										</font>
+										<font style="background: url(../img/hot.gif) no-repeat scroll 0px 0px transparent; margin-top: 0px; padding-left: 20px; border-top-width: 0px; padding-right: 6px;">
+										</font>
+										
+									</dl>
+								
+								</ul>
+								
+							</form> 
+						</span>
+						<span class="sright"></span>
+						<span class="sbottom"></span>
+					</div>
+					<div>
+						<span class="sleft"></span> 
+						<span class="scenter">
+							<h2>当前价格/时效</h2>
+							<form action="/new/price/" method="get" class="cargotracking" id="PriceForm">
+								<p>
+									<label class="newprocitySel"> <input id="leavedCity1" name="departureCity" autocomplete="off" type="text" class="cityinput proCityQuery inputFocus proCitySel send_Input sendAddress iGrays" value="请选择/输入发货城市" ov="请选择/输入发货城市"> </label>
+								</p>
+								<p>
+									<label class="newprocitySel"> <input id="arrivedCity1" name="destinationCity" autocomplete="off" type="text" class="cityzinput proCityQuery inputFocus proCitySel receiveAddress iGrays" value="请选择/输入到达城市" ov="请选择/输入到达城市"> </label>
+								</p>
+								<p class="inputop">
+									<input id="PriceSearch" name="" type="button" value="查询" class="cargobutton butseach tosnsmall_btn tsprice">
+								</p>
+							</form> </span> 
+						<span class="sright"></span> 
+						<span class="sbottom"></span>
+					</div>
+				</div>
+				<div class="carriage">
+					<h2>主营产品</h2>
+					<div class="carriageclass clearfix">
+						<a href="#" class="tehui">
+							<br>
+							<span class="txt_top" style="margin-left:22px">3.60特惠件</span>
+							<span class="txt_bottom" style="margin-left:22px">实惠安心贴心</span>
+						</a>
+						<a href="#" class="economyexpress" style="margin-left:30px">
+							<br>
+							<span class="txt_top" style="margin-left:20px">标准快递</span>
+							<span class="txt_bottom" style="margin-left:20px">专业可靠</span>
+						</a>
+						<a href="#" class="exclusive" style="margin-left:45px;">
+							<br>
+							<span class="txt_top" style="margin-left:22px">电商尊享</span>
+							<span class="txt_bottom" style="margin-left:22px">专属省心放心</span>
+						</a>
+						<a href="/product/zhuandi.html" class="swzd" style="margin-left:30px">
+							<br>
+							<span class="txt_top" style="margin-left:40px">特准快件</span>
+							<span class="txt_bottom" style="margin-left:40px">一诺千金</span>
+						</a>
+					</div>
+					<div class="carriageclass clearfix">
+						<a href="/product/air.html" class="performance">
+							<br>
+							<span class="txt_top" style="margin-left:38px">精准空运</span>
+							<span class="txt_bottom" style="margin-left:38px">快捷高效</span>
+						</a>
+						<a href="/product/truck.html" class="transport" style="margin-left:30px;">
+							<br>
+							<span class="txt_top" style="margin-left:30px">精准卡航</span>
+							<span class="txt_bottom" style="margin-left:30px">高性价比</span>
+						</a>
+						<a href="/product/city.html" class="shortcut" style="margin-left:35px">
+							<br>
+							<span class="txt_top" style="margin-left:40px">精准城运</span>
+							<span class="txt_bottom" style="margin-left:40px">城市便捷通道</span>
+						</a>
+						<a href="/product/car.html" class="scope" style="margin-left:55px">
+							<br>
+							<span class="txt_top" style="margin-left:25px">精准汽运</span>
+							<span class="txt_bottom" style="margin-left:25px">高覆盖率</span>
+						</a>
+					</div>
+					<div class="carriageclass clearfix">
+						<a href="/product/zhengche.html" class="carload" style="">
+							<br>
+							<span class="txt_top" style="margin-left:30px">整车运输</span>
+							<span class="txt_bottom" style="margin-left:30px">十万客户信赖</span>
+						</a>
+						<a href="/product/storage.html" class="storage" style="">
+							<br>
+							<span class="txt_top" style="margin-left:10px">德邦仓储</span>
+							<span class="txt_bottom" style="margin-left:10px">省时省力省心</span>
+						</a>
+						<a href="/product/FBA.html" class="international" style="">
+							<br>
+							<span class="txt_top" style="margin-left:10px">跨境业务</span>
+							<span class="txt_bottom" style="margin-left:10px">一站式服务</span>
+						</a>
+						<a href="/product/zhongbao.html" class="preferential" style="margin-left:25px">
+							<br>
+							<span class="txt_top" style="margin-left:25px">重包入户</span>
+							<span class="txt_bottom" style="margin-left:25px">包接包送</span>
+						</a>
+					</div>
+				</div>
+				<div class="services">
+					<h2>增值服务</h2>
+					<div class="servicesclass clearfix" style="margin-left:5px;">
+						<a href="/product/collect.html" class="collection">
+							<span class="txt_top">代收货款</span>
+							<span class="txt_bottom">便捷货款回收</span>
+						</a>
+						<a href="/product/insurance.html" class="Protect">
+							<span class="txt_top">保价运输</span>
+							<span class="txt_bottom">安全保价运输</span>
+						</a>
+						<a href="/product/package.html" class="safety">
+							<span class="txt_top">安全包装</span>
+							<span class="txt_bottom">专业包装服务</span>
+						</a>
+						
+					</div>
+				</div>
+				<div class="services">
+					
+				</div>
+			</div>
+			
+		</div>
+		<!--------------页面底部-------------------->
+		<footer id="footer">
+			<iframe src="03-footer.html" frameborder="0"></iframe>
+		</footer>
+	</div>
+	<script src="js/ajax.js"></script>
+	<script src="js/jquery.js"></script>
+	<script src="js/01-index.js"></script>
+
+	<script src="js/jquery-3.2.1.js"></script>
+	<script src="js/jquery-ui.js"></script>
+
+
+
+	<!--<script src="js/jquery.flot.js"></script>-->
+	<!--<script src="js/bootstrap.js"></script>-->
+	<!--<script src="js/app.js"></script>-->
+
+
+
+	<!--<script src="js/jquery-3.2.1.js"></script>
+	<script src="js/jquery-1.11.3.js"></script>
+	<script src="js/jquery-ui.js"></script>-->
+	<script>
+		function menuFix(){
+			var sfEles=document.getElementById("menu").getElementsByTagName("li");
+			for(var i=0;i<sfEles.length;i++){
+				sfEles[i].onmouseover=function(){
+					this.className+=(this.className.length>0?" ":"")+"showList";
+				}
+				sfEles[i].onmouseout=function(){
+					this.className=this.className.replace("showList","");
+				}
+			}
+		}
+		window.onload=menuFix;
+	</script>
+ </body>
+ </html>

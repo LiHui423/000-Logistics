@@ -1,0 +1,665 @@
+/*banner部分*/
+#banner{
+    width:960px;
+    height:384px;
+    overflow:hidden;
+    position:relative;
+}
+#banner ul.banner-img{
+    position:absolute; left:0;
+}
+#banner ul.banner-img>li{float:left;width:960px;}
+#banner ul.banner-img img{
+    width:960px;
+    height:384px;
+}
+#banner a.ck-slide{
+    position:absolute;
+    top:157px;
+    width:35px;
+    height:70px;
+    border-radius:3px;
+    background:#000;
+    opacity:0.15;
+    transition:all .3s linear;
+}
+#banner a.ck-left{
+    left:5px;
+    background: #000 url(../img/index/arrow-left.png) no-repeat center center;
+}
+#banner a.ck-right{
+    right:5px;
+    background:#000 url(../img/index/arrow-right.png) no-repeat center center;
+}
+#banner a.ck-slide:hover{
+    opacity:0.3;
+}
+#banner ul.indicators{
+    position:absolute;
+    bottom:10px;
+    left:50%;
+    margin-left:-34px;
+}
+#banner ul.indicators li{
+    width:12px;
+    height:12px;
+    background:#fff;
+    border-radius:50%;
+    float:left;
+    margin-right:5px;
+    transition:all .2s linear;
+}
+#banner ul.indicators li:hover,#banner ul.indicators li.hover{
+    cursor:pointer;
+    background-color:#0AA1ED;
+}
+
+/*******************页面中心内容样式**************************/
+.content{
+	margin-top:10px;
+}
+.content .siderBar{
+	width:230px;
+	float:left;
+}
+.content #loginInfo{
+	background:#F2F2F2;
+	width:230px;
+	height:262px;
+	border-radius:5px;
+	position:relative;
+}
+.ts-index .title{
+	width:103.5px;
+	height:30px;
+	float:left;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+	margin-left:9px;
+	margin-top:7px;
+	cursor:pointer;
+}
+.ts-orderform .commonReMini{
+	color:#fff;
+	border-bottom:2px solid #0aa1ed;
+	background:#0aa1ed;
+}
+.ts-index h3 {
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: normal;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+}
+.ts-orderform .scanRe{
+	border-bottom: 2px solid #0aa1ed;
+    margin-left: 0px;
+    color: #858585;
+}
+.ts-orderform .textinput {
+    width: 200px;
+    margin-bottom: 6px;
+    border: #d6d6d6 1px solid;
+    height: 20px;
+    line-height: 20px;
+    padding-left: 5px;
+	margin-left:9px;
+	margin-top:8px;
+}
+.iGrays {
+    color: #aaa;
+}
+.ts-orderform .Codeinput {
+    width: 100px;
+    border: 1px solid #d6d6d6;
+    height: 20px;
+    line-height: 20px;
+    text-indent: 5px;
+	margin-left:9px;
+	margin-top:8px;
+}
+.ts-orderform .leftspan {
+    float: left;
+    display: block;
+    height: 25px;
+    text-align: left;
+    margin-top: 5px;
+    width: 148px;
+	margin-left:6px;
+	position:absolute;
+	left:3px;
+}
+.ts-orderform .rightspan {
+    float: right;
+    height: 25px;
+    text-align: center;
+    color: #2110bf;
+    margin-top: 5px;
+	margin-right:15px;
+}
+.ts-orderform .rightspan a:visited {
+    color: #2110bf;
+    text-decoration: none;
+}
+.ts-orderform .ts-submit {
+    border: none;
+    width: 102px;
+    height: 32px;
+    line-height: 32px;
+    cursor: pointer;
+    font-weight: normal;
+    color: #333333;
+    margin-top: 9px;
+    font-size: 16px;
+    margin-left: 65px;
+}
+.tosnmiddle_btns {
+    background: url(../img/tosn_btnmiddle.png) no-repeat 0 0;
+}
+
+.ts-index .siderBar a .indexBuy {
+    font-size: 16px;
+    text-decoration: none;
+}
+.ts-index .indexBuy {
+    width: 168px;
+    height: 40px;
+    text-align: center;
+    margin-left: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    line-height: 40px;
+}
+.tosnBig {
+    background: url(../img/ts-interbuy.png) no-repeat 0px 0px;
+}
+.content .blo .bcm, .content .bcm {
+    padding: 4px;
+    background: #F2F2F2;
+    border-left: 1px solid #EAEAEA;
+    border-right: 1px solid #EAEAEA;
+	border-radius:5px;
+}
+.content .blo .bcm li{
+	display:inline;
+}
+.content .bcm li a{
+    display: block;
+    height: 34px;
+    line-height: 34px;
+    color: #777;
+    font-size: 14px;
+    text-align: left;
+    text-decoration: none;
+}
+.content .bcm li a:hover{
+	color:#000;
+}
+.content .bcm li a span {
+    cursor: pointer;
+	padding-left:5px;
+}
+.ts-index .ts-suo {
+    background: url(../img/smallMark/ts-suo1.png) center no-repeat;
+    width: 12px;
+    height: 18px;
+    float: right;
+    margin-right: 8px;
+    margin-top: 9px;
+}
+.ts-index .bcm .zhengche .icobg {
+    background: url(../img/smallMark/13090715xqdq.png) no-repeat 9px 8px;
+}
+.ts-index .bcm .icobg {
+    display: block;
+    float: left;
+    height: 34px;
+    overflow: hidden;
+    width: 25px;
+}
+.ts-index .bcm .UploadOrder .icobg {
+    background: url(../img/smallMark/index-menu.png) no-repeat 9px 7px;
+}
+.ts-index .bcm .TemplatesDown .icobg {
+    background:url(../img/smallMark/index-menu.png) no-repeat 9px -25px;
+}
+.content .bcm li a span.txt {
+    display: block;
+    float: left;
+    height: 34px;
+    padding-left: 5px;
+}
+.ts-index .bcm .billpay .icobg {
+    background:url(../img/smallMark/index-menu.png) no-repeat 9px -58px;
+}
+.ts-index .bcm .take .icobg {
+    background:url(../img/smallMark/index-menu.png) no-repeat 9px -88px;
+}
+.ts-index .bcm .takeorder .icobg {
+    background:url(../img/smallMark/index-menu.png) no-repeat 9px -122px;
+}
+.ts-index .bcm .ts-rdgif {
+    display: block;
+    float: left;
+    height: 34px;
+    overflow: hidden;
+    width: 25px;
+    background: url(../img/smallMark/ts-dsd.png) no-repeat 9px 7px;
+
+}
+.ts-index .bcm .ts-fps {
+    display: block;
+    float: left;
+    height: 34px;
+    overflow: hidden;
+    width: 25px;
+    background: url(../img/smallMark/27141735y1m2.png) no-repeat 9px 7px ;
+}
+.ts-index .bcm .ts-srm {
+    display: block;
+    float: left;
+    height: 34px;
+    overflow: hidden;
+    width: 25px;
+    background: url(../img/smallMark/17110131a8sm.jpg) no-repeat 9px 9px;
+}
+.ts-index .bcm .ts-bb {
+    display: block;
+    float: left;
+    height: 34px;
+    overflow: hidden;
+    width: 25px;
+    background: url(../img/smallMark/10181123zky6.png) no-repeat 4px 9px;
+}
+.siderBar.bcontact {
+    margin-top: 15px;
+}
+.ts-index .selecteWay {
+    margin-top: 10px;
+    color: #333333;
+}
+.ts-index .selecteWay ul {
+    /*border-bottom: 2px solid #0aa1ed;*/
+    height: 26px;
+    overflow: hidden;
+}
+.ts-index .selecteWay ul li.s1 {
+    width: 110px;
+}
+.ts-index .selecteWay ul li {
+    float: left;
+    display: block;
+    height: 26px;
+    line-height: 26px;
+	background: #0aa1ed;
+	/*text-align:center;*/
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+
+}
+.ts-index .selecteWay ul li.s1 a, .ts-index .selecteWay ul li.s1 a.current:visited {
+    background: #0aa1ed;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+    color: #FFF;
+    font-size: 14px;
+    line-height: 26px;
+	
+}
+.ts-index .selecteWay ul li.s2 {
+    width: 110px;
+    margin-left: 10px;
+	background: none;
+}
+
+.ts-index .selecteWay ul li.s2 a, .ts-index .selecteWay ul li.s2 a:visited {
+    line-height: 26px;
+}
+
+.ts-index .selecteWay ul li a, .ts-index .selecteWay ul li a:visited {
+    color: #767676;
+    display: block;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 13px;
+}
+.ts-index .selecteWayTab ul li a {
+    line-height: 35px;
+    color: #999999;
+    text-indent: 10px;
+    display: block;
+    height: 35px;
+}
+.ts-index .selecteWayTab ul li a:hover{
+	text-decoration:underline;
+}
+.content .main{
+	width:705px;
+	float:left;
+}
+.ts-index .indexsearch {
+    padding-left: 13px;
+	position:relative;
+}
+.ts-index .indexsearch div:nth-child(1){
+	position:absolute;
+	right:-224px;
+}
+.ts-index .indexsearch div:nth-child(2){
+	position:absolute;
+	right:15px;
+}
+
+.clearfix {
+    overflow: hidden;
+    height: 1%;
+}
+.ts-index .indexsearch div .sleft {
+    display: block;
+    background: url(../img/shadow/ts-indexsleft.gif);
+    width: 17px;
+    height: 172px;
+}
+.ts-index .indexsearch div span {
+    float: left;
+}
+.ts-index .indexsearch div .scenter {
+    display: block;
+    background: url(../img/shadow/ts-indexscenter.gif);
+    height: 167px;
+    width: 189px;
+    padding-top: 5px;
+}
+.ts-index .indexsearch div .scenter h2{
+	color:#0aa1ed;
+	font-size:14px;
+}
+.ts-index .indexsearch div .cargotracking {
+    margin-top: 10px;
+}
+.ts-index .indexsearch div .scenter textarea {
+    width: 180px;
+    height: 30px;
+    border: 1px solid #D6D6D6;
+    padding: 3px;
+    overflow-y: hidden;
+}
+.iGrays {
+    color: #aaa;
+}
+.ts-index .indexsearch div .scenter .inputop {
+    margin-top: 5px;
+}
+.ts-index .indexsearch div .scenter .cargobutton {
+    width: 62px;
+    height: 22px;
+    border: 0px;
+    cursor: pointer;
+}
+.tosnsmall_btn {
+    background: url(../img/tosn_smallbtn.png) no-repeat 0px -66px;
+}
+.ts-index .indexsearch div .scenter .pfont {
+    color: #3367D6;
+}
+.ts-index .indexsearch div .scenter .inputop {
+    margin-top: 5px;
+}
+.ts-index .indexsearch div .scenter .norder {
+    text-align: center;
+    color: #aeaeae;
+}
+.ts-index .indexsearch div .scenter .norder b {
+    background: url(../img/ts-ico.png) left no-repeat;
+    width: 140px;
+    padding-left: 16px;
+    font-weight: normal;
+}
+.ts-index .indexsearch div .sright {
+    display: block;
+    background: url(../img/shadow/ts-indexsright.gif);
+    width: 14px;
+    height: 172px;
+}
+.ts-index .indexsearch div span {
+    float: left;
+}
+.ts-index .indexsearch div .sbottom {
+    background: url(../img/shadow/ts-indexbottom.gif) top no-repeat;
+    width: 218px;
+    height: 0px;
+    display: block;
+}
+.newprocitySel {
+    position: relative;
+    height: 30px;
+    border: 0px;
+}
+.ts-index .indexsearch div .scenter .city_input {
+    border: 1px solid #d6d6d6;
+    width: 180px;
+    height: 30px;
+    background: url(../img/smallMark/ts-indexcity.png) no-repeat;
+    line-height: 30px;
+    margin-top: 5px;
+    text-indent: 5px;
+}
+.ts-index .indexsearch div .scenter .inputop {
+    margin-top: 5px;
+}
+.ts-index .indexsearch div .scenter .shopMess {
+    width: 180px;
+    height: 40px;
+}
+.ts-index .indexsearch div .scenter .shopMess dl {
+    float: left;
+    color: #777777;
+    display: block;
+    line-height: 16px;
+    margin-top: 3px;
+}
+.ts-index .indexsearch div .scenter .shopMess dl img{
+	z-index:10px;
+}
+/********************主营产品***********************/
+.carriage,.services {
+	margin-top:18px;
+	margin-left:21px;
+}
+.ts-index .carriage h2 {
+    display: block;
+    background: url(../img/mainProduct/ico-reminder.png) left no-repeat;
+    text-indent: 7px;
+    font-size: 14px;
+    color: #48456d;
+}
+.ts-index .carriageclass {
+    width: 710px;
+    height: 65px;
+    margin-top: 0px;
+    margin-left: 0px;
+	
+
+}
+.ts-index .carriageclass .tehui {
+    display: block;
+    cursor: pointer;
+    width: 100px;
+    float: left;
+    text-decoration: none;
+    padding-left: 46px;
+	margin-right:12px;
+    background-position: -20px -67px;
+}
+.ts-index .carriageclass a {
+    background: url(../img/mainProduct/ts-carriage4.png);
+    height: 80px;
+}
+.ts-index .carriageclass .txt_top, .ts-index .servicesclass .txt_top {
+    color: #777777;
+    font-size: 14px;
+}
+.ts-index .carriageclass .txt_bottom, .ts-index .servicesclass .txt_top {
+    display: block;
+    margin-top: -5px;
+    width: 75px;
+}
+.ts-index .carriageclass .economyexpress {
+    display: block;
+    width: 100px;
+    cursor: pointer;
+    float: left;
+    text-decoration: none;
+    padding-left: 46px;
+	margin-right:0px;
+    background-position: -170px -67px;
+}
+.ts-index .carriageclass .exclusive {
+    display: block;
+    width: 100px;
+    cursor: pointer;
+    float: left;
+    text-decoration: none;
+    padding-left: 46px;
+	margin-right:11px;
+    background: url(../img/mainProduct/03142508mp4d.png) no-repeat;
+    background-position: 0px;
+}
+.ts-index .carriageclass .swzd {
+    display: block;
+    width: 100px;
+    cursor: pointer;
+    float: left;
+    text-decoration: none;
+    padding-left: 36px;
+    background: url(../img/mainProduct/03140847lkr5.png) no-repeat;
+    background-size: 70px;
+    background-position: 0px;
+}
+.ts-index .carriageclass .performance {
+    display: block;
+    width: 100px;
+    cursor: pointer;
+    float: left;
+    text-decoration: none;
+    padding-left: 36px;
+	margin-right:17px;
+    background-position: -530px -5px;
+}
+.ts-index .carriageclass .transport {
+    display: block;
+    cursor: pointer;
+    width: 100px;
+    float: left;
+    text-decoration: none;
+    padding-left: 41px;
+	margin-right:4px;
+    background-position: -15px -5px;
+}
+.ts-index .carriageclass .shortcut {
+    display: block;
+    width: 100px;
+    cursor: pointer;
+    float: left;
+    text-decoration: none;
+    padding-left: 44px;
+	margin-right:5px;
+    background-position: -168px -5px;
+}
+.ts-index .carriageclass .scope {
+    display: block;
+    width: 100px;
+    cursor: pointer;
+    float: left;
+    text-decoration: none;
+    padding-left: 43px;
+    background-position: -355px -5px;
+}
+.ts-index .carriageclass .carload {
+    display: block;
+    width: 100px;
+    cursor: pointer;
+    float: left;
+    text-decoration: none;
+    padding-left: 43px;
+	margin-left:3px;
+	margin-right:15px;
+    background: url(../img/mainProduct/18141453h3ts.png) no-repeat -10px;
+    background-size: 85px;
+}
+
+.ts-index .carriageclass .storage {
+    display: block;
+    width: 90px;
+    cursor: pointer;
+    float: left;
+    text-decoration: none;
+    padding-left: 90px;
+	margin-right:4px;
+    background: url(../img/mainProduct/07111030d09x.png) no-repeat 30px 15px;
+}
+.ts-index .carriageclass .international {
+    display: block;
+    width: 100px;
+    cursor: pointer;
+    float: left;
+    text-decoration: none;
+    padding-left: 95px;
+	margin-right:5px;
+    background: url(../img/mainProduct/301801594hbp.png) no-repeat 25px 15px;
+    background-size: 70px;
+}
+.ts-index .carriageclass .preferential {
+    display: block;
+    width: 100px;
+    cursor: pointer;
+    float: left;
+    text-decoration: none;
+    padding-left: 40px;
+    background-position: 5px!important;
+    background: url(../img/mainProduct/15143904rww2.png) no-repeat;
+    background-size: 45px;
+}
+.ts-index .services h2 {
+    display: block;
+    background: url(../img/mainProduct/ico-reminder.png) left no-repeat;
+    text-indent: 7px;
+    font-size: 14px;
+    color: #48456d;
+    margin-top: 20px;
+}
+.ts-index .servicesclass {
+    /*background: url(../img/mainProduct/ts-services2.png) top left no-repeat;*/
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.ts-index .servicesclass .collection {
+	background: url(../img/mainProduct/ts-services2.png) no-repeat 0px -8px;
+    display: block;
+    float: left;
+    width: 114px;
+    padding-left: 60px;
+	margin-right:10px;
+    text-decoration: none;
+}
+.ts-index .servicesclass .Protect {
+	background: url(../img/mainProduct/ts-services2.png) no-repeat -169px -8px;
+    display: block;
+    float: left;
+    width: 90px;
+    padding-left: 63px;
+	margin-right:-11px;
+    text-decoration: none;
+}
+.ts-index .servicesclass .safety {
+	background: url(../img/mainProduct/ts-services2.png) no-repeat -300px -8px;
+    display: block;
+    float: left;
+    padding-left: 107px;
+	margin-right:-31px;
+    text-decoration: none;
+    width: 108px;
+}

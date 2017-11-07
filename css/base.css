@@ -1,0 +1,61 @@
+/*设置页面通用样式*/
+body{
+	font:12px simhei,Arial,Helvetica,sans-serif;
+	color:#666;
+	margin:0;
+	padding:0;
+	background:#fff;
+}
+p,h1,h2,h3,h4,h5,h6,ul,ol,dl,dd,pre{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+a{
+	color:#666;
+	text-decoration:none;
+}
+a:hover{
+	color:#0aa1ed;
+}
+img{
+	vertical-align:bottom;
+}
+.clear:after{
+	content:"";
+	clear:both;
+	display:block;
+}
+.lf{float:left;}
+.rf{float:right;}
+div.main{
+	width:960px;
+	margin:0 auto;
+}
+input{
+	padding:0;
+	margin:0;
+}
+input, select, textarea, button {
+    vertical-align: middle;
+    resize: none;
+}
+html, body, p, th, td, input, select, textarea, button, div {
+    padding: 0;
+    margin: 0;
+    font-family: "microsoft yahei",Tahoma, sans-serif;
+    font-size: 12px;
+    line-height: 180%;
+}
+#header iframe{
+	width:100%;
+	height:145px;
+	margin-top:30px;
+	margin-bottom:15px;
+}
+#footer iframe{
+	width:100%;
+	height:210px;
+	margin-top:20px;
+	margin-bottom:15px;
+}

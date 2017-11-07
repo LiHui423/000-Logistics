@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>首页-HuanYu Logistics</title>
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/jquery-ui.css">
+ </head>
+ <body>
+	<div class="main">
+		<div class="header">
+			<div class="links">
+				<ul>
+					<li>
+						<a href="#">收藏环宇</a>
+					</li>
+					<li class="fr nl">
+						<a href="/en/">English</a>
+					</li>
+					<li class="fr ">
+						<a href="/hk/">繁體</a>
+						<span class="line1">|</span>
+					</li>
+					<li class="fr current">
+						<a href="javascript:void(0);">简体</a>
+						<span class="line2">|</span>
+					</li>
+					<li class="fr nl notLogin">
+						<a href="/user/toregist.action" rel="nofollow">注册</a>
+					</li>
+					<li class="fr notLogin">
+						<a href="/user/toregist.action" rel="nofollow">登录</a>
+						<span class="line3">|</span>
+					</li>
+					<li class="fr login" style="display:none;">
+						<span class="currentTime"></span>
+						<font>
+							<a style="color:#fbb100;" href="/user/touserinfo.action" class="userName1" id="uname1">
+							</a>
+						</font> ! 
+						<a href="javascript:;" class="Safetyexit" id="ifFisKeycustomert">【退出】</a>
+					</li>
+					<li class="fr">
+						<a style="text-decoration: none;" href="javascript:openOSS()">在线客服</a>
+						<span class="line4">|</span>
+					</li>
+					<li class="fr">
+						<a href="http://zhaopin.deppon.com">环宇招聘</a>
+						<span class="line5">|</span>
+					</li>
+					
+				</ul>
+			</div>
+			<div class="search">
+				<img src="img/bg-header-ph.png" id="img">
+				<span>0431-4567</span>
+				<input type="text" placeholder="站内搜索">
+				<a href="#">
+					<img src="img/search.png">
+				</a>
+
+
+			</div>
+			<div class="nav" id="menu">
+				<ul>
+					<li class="menua current">
+						<a href="#" style="color:#fff">首页</a>
+					</li>
+					<li>
+						<a href="#">我的环宇</a>
+						<ul class="menuSenc menuSenc1">
+							<li>
+								<label>
+									<a href="#">我的订单</a>
+								</label>
+							</li>
+							<li>
+								<label>
+									<a href="#">更改管理</a>
+								</label>
+							</li>
+							<li>
+								<label>
+									<a href="#">我的账单</a>
+								</label>
+							</li>
+							<li>
+								<label>
+									<a href="#">在线理赔</a>
+								</label>
+							</li>
+							<li>
+								<label>
+									<a href="#">站内消息</a>
+								</label>
+							</li>
+							<li>
+								<label>
+									<a href="#">电子发票</a>
+								</label>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">网上托运</a>
+						<ul class="menuSenc menuSenc2">
+							<li>
+								<label>
+									<a href="#">批量下单</a>
+								</label>
+							</li>
+							<li>
+								<label>
+									<a href="#">价格/时效</a>
+								</label>
+							</li>
+							<li>
+								<label>
+									<a href="#">网点查询</a>
+								</label>
+							</li>
+							<li>
+								<label>
+									<a href="#">收送范围</a>
+								</label>
+							</li>
+							<li>
+								<label>
+									<a href="#">禁运品</a>
+								</label>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">货物追踪</a>
+					</li>
+					<li>
+						<a href="#">业务介绍</a>
+						<ul class="menuSenc menuSenc3">
+							<li>
+								<label>
+									<a href="#">主营产品</a>
+								</label>
+							</li>
+							<li>
+								<label>
+									<a href="#">环宇跨境</a>
+								</label>
+							</li>
+							<li>
+								<label>
+									<a href="#">增值服务</a>
+								</label>
+							</li>
+							<li>
+								<label>
+									<a href="#">市场活动</a>
+								</label>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">帮助与支持</a>
+						<ul class="menuSenc menuSenc4">
+							<li>
+								<label>
+									<a href="#">客户专区</a>
+								</label>
+							</li>
+							<li>
+								<label>
+									<a href="#">常见问题</a>
+								</label>
+							</li>
+							<li>
+								<label>
+									<a href="#">下载中心</a>
+								</label>
+							</li>
+							<li>
+								<label>
+									<a href="#">投诉/咨询</a>
+								</label>
+							</li>
+							<li>
+								<label>
+									<a href="#">在线客服</a>
+								</label>
+							</li>
+							<li>
+								<label>
+									<a href="#">隐私政策</a>
+								</label>
+							</li>
+							<li>
+								<label>
+									<a href="#">网站地图</a>
+								</label>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">关于环宇</a>
+						<ul class="menuSenc menuSenc5">
+							<li>
+								<label>
+									<a href="#">公司概述</a>
+								</label>
+							</li>
+							<li>
+								<label>
+									<a href="#">新闻办公</a>
+								</label>
+							</li>
+							<li>
+								<label>
+									<a href="#">人才招聘</a>
+								</label>
+							</li>
+							<li>
+								<label>
+									<a href="#">练习环宇</a>
+								</label>
+							</li>
+							<li>
+								<label>
+									<a href="#">开放平台</a>
+								</label>
+							</li>
+							<li>
+								<label>
+									<a href="#">企业视频</a>
+								</label>
+							</li>
+							<li>
+								<label>
+									<a href="#">供应商</a>
+								</label>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">合伙人申请</a>
+						<ul class="menuSenc menuSenc6">
+							<li>
+								<label>
+									<a href="#">开放区域</a>
+								</label>
+							</li>
+							<li>
+								<label>
+									<a href="#">在线申请</a>
+								</label>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+ </body>
+ <script>
+	function menuFix(){
+		var sfEles=document.getElementById("menu").getElementsByTagName("li");
+		for(var i=0;i<sfEles.length;i++){
+			sfEles[i].onmouseover=function(){
+				this.className+=(this.className.length>0?" ":"")+"showList";
+		}
+			sfEles[i].onmouseout=function(){
+				this.className=this.className.replace("showList","");
+			}
+		}
+	}
+	 window.onload=menuFix;
+ </script>
+ </html>

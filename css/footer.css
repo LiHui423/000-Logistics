@@ -1,0 +1,63 @@
+.footer{
+	padding:0 30px;
+	height:184px;
+	padding-top:25px;
+	background-color:#0aa1ed;
+	position:relative;
+}
+.footer .lo{
+	height:31px;
+	padding-top:60px;
+	background:url(../img/logo.png) no-repeat;
+	position:absolute;
+	width:280px;
+}
+.footer .lo p{
+	height:31px;
+	background:url(../img/bg-header-ph.png) 80px 0px no-repeat;
+	overflow:hidden;
+	text-indent:-9999px;
+	margin-top:39px;
+	
+	
+}
+.footer .lo span{
+	position:absolute;
+	bottom:-34px;
+	left:124px;
+	font-size:18px;
+	color:#F8D32C;
+	font-family:"Microsoft YaHei";
+	font-weight:bold;
+}
+
+.footer .f-nav{
+	height:20px;
+	line-height:20px;
+	position:absolute;
+	bottom:35px;
+	right:20px;
+}
+.footer .f-nav li{
+	float:left;
+	padding-right:15px;
+	font-size:14px;
+}
+.footer .f-nav a:hover{
+	color:#fff;
+	text-decoration:underline;
+}
+.footer .copyright{
+	color:#c3c2d5;
+	height:20px;
+	line-height:20px;
+	position:absolute;
+	bottom:20px;
+	right:35px;
+	margin-bottom:-9px;
+}
+.footer .f-icp {
+	position:absolute;
+	right:42px;
+	top:60px;
+}
