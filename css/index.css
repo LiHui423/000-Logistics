@@ -663,3 +663,60 @@
     text-decoration: none;
     width: 108px;
 }
+.ts-index .services h2 {
+    display: block;
+    background: url(../img/mainProduct/ico-reminder.png) left no-repeat;
+    text-indent: 7px;
+    font-size: 14px;
+    color: #48456d;
+    margin-top: 20px;
+}
+.ts-index .services h2 a {
+    font-size: 12px;
+    font-weight: normal;
+    color: #1200bc;
+    margin-left: 5px;
+}
+.ts-index .services ul {
+    padding-left: 15px;
+}
+.ts-index .services ul li {
+    float: left;
+    margin-top: 10px;
+    background: #fff;
+    margin-right: 42px;
+}
+.ts-index .services ul li .sfont {
+    color: #716f8f;
+    font-size: 14px;
+    font-weight: bold;
+    text-indent: 10px;
+}
+.ts-index .services ul li a {
+    text-indent: 10px;
+    display: block;
+    background: url(../img/mainProduct/bg_mc_0107_1.png) left no-repeat;
+    color: #9b9b9b;
+}
+.goTop {
+    background: #0aa1ed;
+    color: #fff;
+    width: 27px;
+    height: 84px;
+    position: fixed;
+    _position: absolute;
+    z-index: 1;
+    bottom: 295px;
+    right: 275.72px;
+    margin-bottom: 10px;
+}
+.goTop a {
+    color: #fff;
+    text-decoration: none;
+    width: 17px;
+    display: block;
+    margin-left: 7px;
+    line-height: 15px;
+    padding-top: 18px;
+    background: url(../img/mainProduct/icon_00.png) no-repeat 3px 7px;
+}
