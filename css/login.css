@@ -1,0 +1,20 @@
+.content{
+    padding-top:15px;
+}
+.clearfix{
+    overflow:auto;
+    height:1%;
+}
+.content .ts-Users h2{
+    color: #0AA1ED;
+    display: block;
+    border-bottom: #c5c4d1 2px solid;
+    font-size: 16px;
+    padding-bottom: 5px;
+    font-weight: normal;
+}
+.ts-User .ts-Users h2 span {
+    font-size: 12px;
+    color: #b3b3b3;
+    padding-left: 10px;
+}

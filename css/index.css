@@ -720,3 +720,103 @@
     padding-top: 18px;
     background: url(../img/mainProduct/icon_00.png) no-repeat 3px 7px;
 }
+.pindao-enter{
+    position:relative;
+    margin-top:677px;
+    margin-left:255px;
+    width:700px;
+    height:250px;
+    border-radius:5px;
+}
+.pindao-enter .item{
+    position:absolute;
+    width:572px;
+    height:200px;
+    background:-webkit-gradient(linear,0 0,right 0,from(#e89621),to(#f5c568));
+    border-left-radius:5px;
+    padding-top:70px;
+    padding-left:30px;
+}
+.pindao-enter span.n-line {
+    width: 78px;
+    background: url(../img/index.png) no-repeat -102px -245px;
+    margin-left: 5px;
+    z-index: 1;
+    display: block;
+    height: 2px;
+}
+.pindao-enter span.w-line {
+    width: 154px;
+    background: url(../img/index.png) no-repeat -101px -253px;
+    margin-left: 5px;
+    z-index: 1;
+    display: block;
+    height: 2px;
+}
+.pindao-enter p.name {
+    font: bold 26px/28px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+    height: 30px;
+    margin: 15px 0 15px 5px;
+}
+.pindao-enter p {
+    position: relative;
+    color: #FFF;
+    width: 160px;
+    overflow: hidden;
+    z-index: 1;
+}
+.pindao-enter p.desc {
+    font: 14px/20px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+    height: 20px;
+    margin: 15px 0 0 5px;
+}
+.pindao-enter:hover img {
+    -webkit-transform: translateX(-10px);
+    -ms-transform: translateX(-10px);
+    transform: translateX(-10px);
+}
+.pindao-enter img {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    right: -20px;
+    top: -35px;
+    background: 0;
+    -webkit-transition: -webkit-transform .5s;
+    transition: -webkit-transform .5s;
+    -moz-transition: transform .5s,-moz-transform .5s;
+    transition: transform .5s;
+    transition: transform .5s,-webkit-transform .5s,-moz-transform .5s;
+}
+.pindao-enter .side_nav{
+    width:98px;
+    height:100%;
+    background:#0AA1ED;
+    opacity:0.3;
+    float:right;
+    transition:all .3s linear;
+}
+.pindao-enter .side_nav p{
+    font: 26px "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+    width:35px;
+    height:100%;
+    margin:52px auto;
+    transition:all .3s linear;
+}
+.pindao-enter .side_nav p:hover{
+    color:#E99A27;
+}
+.pindao-enter .side_nav:hover{
+    opacity:0.8;
+}
+
+
+
+
+
+
+
+
+
+
+

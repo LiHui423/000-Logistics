@@ -83,9 +83,9 @@
   // 滚动条滚动
   $(window).scroll(function() {
     if ($(window).scrollTop() > 100) {
-      var l = 80;
+      var l = 1460;
       var w = $(".goTop").width();
-      $(".goTop").css("right", l - w).css("bottom", "295px");
+      $(".goTop").css("left", l - w).css("bottom", "295px");
       $(".goTop").fadeIn(600);
     } else {
       $(".askTable").fadeOut(600);

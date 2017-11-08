@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    <div class="main">
+        <header id="header" class="header">
+            <div class="links">
+                <ul>
+                    <li>
+                        <a href="#">收藏环宇</a>
+                    </li>
+                    <li class="fr nl">
+                        <a href="/en/">English</a>
+                    </li>
+                    <li class="fr ">
+                        <a href="/hk/">繁體</a>
+                        <span class="line1">|</span>
+                    </li>
+                    <li class="fr current">
+                        <a href="javascript:void(0);">简体</a>
+                        <span class="line2">|</span>
+                    </li>
+                    <li class="fr nl notLogin">
+                        <a href="/user/toregist.action" rel="nofollow">注册</a>
+                    </li>
+                    <li class="fr notLogin">
+                        <a href="/user/toregist.action" rel="nofollow">登录</a>
+                        <span class="line3">|</span>
+                    </li>
+                    <li class="fr login" style="display:none;">
+                        <span class="currentTime"></span>
+                        <font>
+                            <a style="color:#fbb100;" href="/user/touserinfo.action" class="userName1" id="uname1">
+                            </a>
+                        </font> !
+                        <a href="javascript:;" class="Safetyexit" id="ifFisKeycustomert">【退出】</a>
+                    </li>
+                    <li class="fr">
+                        <a style="text-decoration: none;" href="javascript:openOSS()">在线客服</a>
+                        <span class="line4">|</span>
+                    </li>
+                    <li class="fr">
+                        <a href="http://zhaopin.deppon.com">环宇招聘</a>
+                        <span class="line5">|</span>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="search">
+                <img src="img/bg-header-ph.png" id="img">
+                <span>0431-4567</span>
+                <input type="text" placeholder="站内搜索">
+                <a href="#">
+                    <img src="img/search.png">
+                </a>
+
+
+            </div>
+            <div class="nav" id="menu">
+                <ul>
+                    <li class="menua current">
+                        <a href="#" style="color:#fff">首页</a>
+                    </li>
+                    <li>
+                        <a href="#">我的环宇</a>
+                        <ul class="menuSenc menuSenc1">
+                            <li>
+                                <label>
+                                    <a href="#">我的订单</a>
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <a href="#">更改管理</a>
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <a href="#">我的账单</a>
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <a href="#">在线理赔</a>
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <a href="#">站内消息</a>
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <a href="#">电子发票</a>
+                                </label>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">网上托运</a>
+                        <ul class="menuSenc menuSenc2">
+                            <li>
+                                <label>
+                                    <a href="#">批量下单</a>
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <a href="#">价格/时效</a>
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <a href="#">网点查询</a>
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <a href="#">收送范围</a>
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <a href="#">禁运品</a>
+                                </label>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">货物追踪</a>
+                    </li>
+                    <li>
+                        <a href="#">业务介绍</a>
+                        <ul class="menuSenc menuSenc3">
+                            <li>
+                                <label>
+                                    <a href="#">主营产品</a>
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <a href="#">环宇跨境</a>
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <a href="#">增值服务</a>
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <a href="#">市场活动</a>
+                                </label>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">帮助与支持</a>
+                        <ul class="menuSenc menuSenc4">
+                            <li>
+                                <label>
+                                    <a href="#">客户专区</a>
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <a href="#">常见问题</a>
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <a href="#">下载中心</a>
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <a href="#">投诉/咨询</a>
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <a href="#">在线客服</a>
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <a href="#">隐私政策</a>
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <a href="#">网站地图</a>
+                                </label>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">关于环宇</a>
+                        <ul class="menuSenc menuSenc5">
+                            <li>
+                                <label>
+                                    <a href="#">公司概述</a>
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <a href="#">新闻办公</a>
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <a href="#">人才招聘</a>
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <a href="#">练习环宇</a>
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <a href="#">开放平台</a>
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <a href="#">企业视频</a>
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <a href="#">供应商</a>
+                                </label>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">合伙人申请</a>
+                        <ul class="menuSenc menuSenc6">
+                            <li>
+                                <label>
+                                    <a href="#">开放区域</a>
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <a href="#">在线申请</a>
+                                </label>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <div class="content clearfix ts-User">
+            <div class="ts-Users">
+                <h2>
+                    请登录或注册<span>只需15秒</span>
+                </h2>
+                <div class="ts-UserReg">
+                    <div class="title mobileRe" style="border-bottom: 1px solid white; background: url(&quot;&quot;) repeat-x;">
+                        <h3>手机注册</h3>
+                    </div>
+                    <div class="title commonRe" style="border-bottom: 1px solid rgb(217, 217, 217); background: url(&quot;../images/tab.png&quot;) repeat-x;">
+                        <h3>普通注册</h3>
+                    </div>
+                    <form id="formregist">
+                        <div class="common-regist" style="display: none;">
+                            <ul>
+
+                                <li><em>* </em>&nbsp;邮 箱 地 址:&nbsp;<input type="text" class="d_text UserText inputFocus flagEmail iGrays" name="user.email" value="请输入常用邮箱,用于找回密码" ov="请输入常用邮箱,用于找回密码" id="regEmail" style="width: 130px;"> <span id="msgEmail" class="leftspan mailspan" style="color: red"> </span><br></li>
+                                <li class="ts-Upass"><em>* </em>
+                                    <div class="pwdText">&nbsp;密 码:</div>&nbsp;
+                                    <div id="pwdArea" class="pwdArea">
+                                        <label id="pwd_tips" class="input_tips tips" for="regPass" style="display: block;">6-16个字符</label>
+                                        <div class="inputOuter">
+                                            <input id="regPass" class="d_text UserRegText pass passForCommon" type="password" maxlength="16" value="" name="user.password">
+                                        </div>
+                                    </div> <span class="msgPassForCommon" style="color: red"></span></li>
+                                <li class="ts-UpassConfirm"><em>* </em>
+                                    <div class="pwdText">&nbsp;确 认 密 码:</div>&nbsp;
+                                    <div id="pwdArea" class="pwdArea">
+                                        <label class="input_tips tipsConfirm" for="regPassConfirm" style="display: block;">和登录密码一致</label>
+                                        <div class="inputOuter">
+                                            <input id="regPassConfirm" class="d_text UserRegText pass passconfirm" type="password" maxlength="16" value="" name="user.password">
+                                        </div>
+                                    </div> <span class="msgPassConfirmForCommon" style="color: red"></span>
+                                </li>
+                                <li id="regEmailCodesLi" class="ts-UCode" style="display:none"><em>* </em>&nbsp;验 证 码:&nbsp;<input name="" type="text" maxlength="4" class="d_text UserCode" id="regCodes"> <span style="display: none" id="txt_flag"></span> <img id="authCode" onclick="changeImg();" src="../user/authCode.action?d=1510146439021"> <a href="javascript:void(0);" onclick="changeImg();">看不清,换一张?</a>
+                                </li>
+                                <li class="ts-Agreement"><label><input name="" type="checkbox" value="" checked="" id="regXieyi"> 已阅读</label> <a href="javascript:viod(0);" class="xieyi">德邦网上营业厅服务协议</a></li>
+                            </ul>
+                            <div>
+                                <input name="" type="button" value="注册" class="RegSubmit submitMargintext tosnmiddle_btn" id="regSubmit">
+                            </div>
+                        </div>
+                    </form>
+                    <form id="mobileFormRegist">
+                        <div class="mobile-regist" style="display: block;">
+                            <ul>
+                                <li class="ts-Uname"><em>* </em>&nbsp;手 机 号:&nbsp;<input type="text" class="d_text MobileUserText  inputFocus flagName checkMobile iGrays" value="请输入11位手机号码" ov="请输入11位手机号码" name="user.telephone" maxlength="11" id="telephone"> <span class="leftspan namespan msgMobile" style="color: red"> </span></li>
+                                <li class="ts-Upass"><em>* </em>
+                                    <div class="pwdText">&nbsp;密 码:</div>
+                                    <div id="pwdArea" class="pwdArea">
+                                        <label class="input_tips tipsMobile" for="regPassForMobile" style="display: block; left: 8px;">6-16个字符</label>
+                                        <div class="inputOuter" style="margin-left: 7px;">
+                                            <input id="regPassForMobile" class="d_text UserRegText check checkPass pass" type="password" maxlength="16" value="" name="user.password">
+                                        </div>
+                                    </div> <span class="msgPass" style="color: red"></span></li>
+                                <li class="ts-UpassConfirm"><em>* </em>
+                                    <div class="pwdText">&nbsp;确 认 密 码:</div>
+                                    <div id="pwdArea" class="pwdArea">
+                                        <label class="input_tips tipsMobileConfirm" for="regPassConfirmForMobile" style="display: block; left: 8px;">和登录密码一致</label>
+                                        <div class="inputOuter" style="margin-left: 7px;">
+                                            <input id="regPassConfirmForMobile" class="d_text UserRegText check checkPassConfirm pass" type="password" maxlength="16" value="" name="user.password">
+                                        </div>
+                                    </div> <span class="msgPassConfirm" style="color: red"></span></li>
+
+                                <li id="regMobileLi" class="ts-UCode li_mr_code" style="margin-left: 10px;display:none"><em>*
+                                </em>&nbsp;验 证 码:&nbsp; <input name="" type="text" maxlength="4" class="d_text UserCode" id="regmCodes"> <span style="display: none" id="txt_flag"></span> <img id="authCode_mr" onclick="refreshImg(&quot;authCode_mr&quot;)" src="../user/authCode.action?d=1510146439724"> <a href="javascript:void(0)" onclick="refreshImg(&quot;authCode_mr&quot;)">看不清,换一张?</a>
+                                </li>
+
+                                <li class="ts-UCode" style="margin-left: -2px;"><em>*
+                                </em>&nbsp;短信验证码:&nbsp;<input name="" type="text" maxlength="6" class="d_text MobileUserCode inputFocus iGrays" value="输入短信验证码" ov="输入短信验证码" id="regMobileCode"> <input type="button" value="获取短信验证码" class="codeButton tosnsmall_btn_code" onclick="sendCodeMsg(0)"> <span style="display: none" id="txt_flag"></span></li>
+                                <li class="ts-Agreement"><label><input name="" type="checkbox" value="" checked="" id="regXieyiMobile">
+                                    已阅读</label> <a href="javascript:viod(0);" class="xieyi">德邦网上营业厅服务协议</a>
+                                </li>
+                            </ul>
+                            <div>
+                                <input name="" type="button" value="注册" class="RegSubmit submitMargintext tosnmiddle_btn" id="MobileRegSubmit">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="ts-UserReg">
+                    <div class="title commonLo" style="border-bottom: 1px solid white; background: url(&quot;&quot;) repeat-x;">
+                        <h3>登录</h3>
+                    </div>
+                    <div class="title scanLo" style="border-bottom: 1px solid rgb(217, 217, 217); background: url(&quot;../images/tab.png&quot;) repeat-x;">
+                        <h3>扫码登录</h3>
+                    </div>
+                    <form id="formlogin">
+                        <div class="common-login" style="display: block;">
+
+                            <ul>
+                                <li><label class="tf_loglabel">用 户 名：</label> <input type="text" class="d_text UserText inputFocus iGrays" name="user.userName" value="用户名/email/手机号" ov="用户名/email/手机号" id="LoginUsername"></li>
+                                <li><label class="tf_loglabel" style="display: block"><div class="pwdText" style="margin-left: 35px;">密 码：</div> </label>
+                                    <div id="pwdArea" class="pwdArea">
+                                        <label class="input_tips tipslogin" for="LoginPass" style="display: block; left: 7px;">6-16个字符</label>
+                                        <div class="inputOuter" style="margin-left: 5px;">
+                                            <input id="LoginPass" class="d_text UserRegText pass" type="password" maxlength="16" value="" name="user.password">
+                                        </div>
+                                    </div> <span id="s_forgetPwd"><a href="../user/toWriteNameEmail.action" style="margin-left: 5px;">忘记密码?</a> </span></li>
+                                <li id="li_authcode" style="height: 30px;display:none "><label class="tf_loglabel">验 证 码：</label> <input name="authCode" maxlength="4" type="text" class="d_text UserCode" id="loginCodes"> <input type="hidden" name="loginBefActionName" value=""> <img id="authCode1" onclick="changeImgLogin();"> <a href="#" onclick="changeImgLogin();">看不清,换一张?</a> <a href="../user/toWriteNameEmail.action">忘记密码?</a></li>
+                                <li><span class="tf_lip" id="sp_login_loading"></span></li>
+                            </ul>
+                            <div>
+                                <input name="" type="button" value="登录" class="RegSubmit submitMargintext tosnmiddle_btn" id="LoginSubmit">
+                            </div>
+                            <div style="margin-top: 7px;">
+                                <span id="qqLoginBtn" style="display: none"></span> <span style="vertical-align: middle; margin-left: 120px;">使用合作账号登录：</span>
+                                <a href="../otherlogin/otherlogin.action?bindingType=qq"> <img src="../images/Connect_logo_1.png" style="cursor: pointer;">
+                                </a> <a href="../otherlogin/otherlogin.action?bindingType=weibo">
+                                <img src="../images/sina_logo.png" style="cursor: pointer; margin-left: 10px;">
+                            </a>
+                                <!-- <a href="../otherlogin/otherlogin.action?bindingType=taobao">
+                        <img  alt="淘宝账号登录" src="../images/taobao.png" style="cursor: pointer; width: 16px; height: 16px; margin-left:10px;"></a> -->
+                            </div>
+                        </div>
+                    </form>
+                    <form id="scanlogin">
+                        <div class="scan-login" style="display: none;">
+
+                            <ul style="margin-top: 20px;">
+                                <li><label style="font-weight: bold; font-size: 15px; margin-left: 130px;">安全登录</label>
+                                </li>
+
+                            </ul>
+                            <div id="qr" style="margin-left: 30%; margin-top: 10px;">
+                                <div id="qr_click" style="width: 120px; height: 120px; margin-left: 10%; position: relative;">
+                                    <div class="show" style="position: absolute; margin-left: 77px; display: none; top: -40px; z-index: 10;">
+                                        <img src="../images/phone1.png" style="border-style: none;">
+                                    </div>
+                                    <img src="../user/QrCode.action" class="qrCreate" onclick="changeQr();" style="display: block; position: absolute; margin-top: 1px; border: 1px solid rgb(204, 204, 204); margin-left: 4px; opacity: 0.3; z-index: 2;">
+
+                                    <div style="background-color: rgb(0, 0, 0); z-index: 1; height: 120px; width: 120px; position: absolute; margin-left: 5px; margin-top: 1px;" onmouseover="func1();" onmouseout="func2();" class="lose">
+                                    </div>
+
+                                    <div class="loseShow" style="position: absolute; z-index: 3; width: 120px; height: 120px; text-align: center; color: white;">
+                                        <div style="margin-top: 40px; margin-left: 9px;">
+                                            <p>二维码失效</p>
+                                            <p>请点击刷新</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div style="margin-top: 8px;">
+                                <label style="vertical-align: middle; margin-left: 163px;">使用德邦APP扫描二维码</label>
+
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="ts-UserBottom">
+                <h3>注册/登录德邦账户后</h3>
+                <ul>
+                    <li style="margin-right: 80px;">
+                        <h2>快捷下单</h2>
+                        <p>● 收发货人管理，快速选择下单</p> <!-- 						<p>● 批量下单,一键提交</p> -->
+                        <p>● 按模板下单,无需重复填写</p>
+                        <p>● 便捷城市选择控件</p>
+                    </li>
+                    <li style="margin-right: 80px;">
+                        <h2>掌控物流</h2>
+                        <p>● 实时追踪，邮件提醒</p>
+                        <p>● "我的订单" 状态一览</p>
+
+                        <p>● 管理历史订单,按需导出</p>
+                    </li>
+                    <li style="margin-right: 80px;">
+                        <h2>在线支付</h2>
+                        <p>● 批量支付，一键完成</p>
+                        <p>● 在线支付,安全便捷</p>
+                        <p>● 收发货人均可支付</p>
+                    </li>
+                    <li>
+                        <h2>在线理赔</h2>
+                        <p>● 首家物流在线理赔</p>
+                        <p>● 线上提交，专人受理</p>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        <!--------------页面底部-------------------->
+        <footer id="footer">
+            <iframe src="03-footer.html" frameborder="0"></iframe>
+        </footer>
+    </div>
+</body>
+<script src="js/ajax.js"></script>
+<script src="js/jquery.js"></script>
+<script src="js/01-index.js"></script>
+
+<script src="js/jquery-3.2.1.js"></script>
+<script src="js/jquery-ui.js"></script>
+
+
+
+<!--<script src="js/jquery.flot.js"></script>-->
+<!--<script src="js/bootstrap.js"></script>-->
+<!--<script src="js/app.js"></script>-->
+
+
+
+<!--<script src="js/jquery-3.2.1.js"></script>
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/jquery-ui.js"></script>-->
+<script>
+    function menuFix(){
+        var sfEles=document.getElementById("menu").getElementsByTagName("li");
+        for(var i=0;i<sfEles.length;i++){
+            sfEles[i].onmouseover=function(){
+                this.className+=(this.className.length>0?" ":"")+"showList";
+            }
+            sfEles[i].onmouseout=function(){
+                this.className=this.className.replace("showList","");
+            }
+        }
+    }
+    window.onload=menuFix;
+</script>
+</html>
