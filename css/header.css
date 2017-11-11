@@ -70,6 +70,9 @@ body{margin:0}
     line-height: 30px;
     padding: 0 10px;
 }
+.header .links li>a :hover{
+	color:white;
+}
 .header .links li.current a, .header .links li.current a:visited {
     color: #FFF;
     text-decoration: none;

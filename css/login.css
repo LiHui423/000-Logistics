@@ -18,3 +18,245 @@
     color: #b3b3b3;
     padding-left: 10px;
 }
+.ts-User .ts-Users .ts-UserReg {
+    width: 455px;
+    height: 310px;
+    float: left;
+    margin-top: 20px;
+    /*border-right: #d9d9d9 1px solid;*/
+    padding-left: 20px;
+}
+.ts-User .ts-Users .ts-UserReg .commonRe {
+    margin-left: 0px;
+    background: url(../img/login/tab.png) repeat-x;
+}
+.ts-User .ts-Users .ts-UserReg .title {
+    width: 223px;
+    height: 30px;
+    float: left;
+    border: 1px solid #D9D9D9;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-left: 0px;
+    margin-bottom:20px;
+    cursor: pointer;
+}
+.ts-User .ts-Users .ts-UserReg h3 {
+    display: block;
+    background: url(../img/login/ico-reminder.png) left no-repeat;
+    text-indent: 10px;
+    color: #3f3b67;
+    font-size: 14px;
+    font-weight: normal;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.ts-User .ts-Users .ts-UserReg .common-regist {
+    width: 440px;
+    height: 275px;
+    border: 1px solid #D9D9D9;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top: 0px;
+    float: left;
+    margin-left: 7px;
+    display: none;
+}
+.ts-User .ts-Users .ts-UserReg ul {
+    margin-left: 68px;
+    margin-top: 53px;
+}
+.ts-User .ts-Users .ts-UserReg ul li {
+    height: 30px;
+    color: #000;
+    display:list-item;
+    margin-top:0px;
+    margin-bottom:5px;
+    position:relative;
+}
+.ts-User .ts-Users .ts-UserReg em {
+    color: red;
+    float: left;
+    font-style:italic;
+}
+.ts-User .UserText {
+    width: 180px;
+}
+.ts-User .d_text {
+    border: 1px solid #d6d6d6;
+    width: 130px;
+    background: url(../img/login/input_tosnTimesearch.png) repeat-x;
+    height: 20px;
+    line-height: 20px;
+}
+.iGrays {
+    color: #b4b4b4;
+}
+.ts-User .ts-Users .ts-UserReg span {
+    color: #9b9b9b;
+    cursor: pointer;
+}
+.pwdText {
+    color: black;
+    float: left;
+}
+.pwdArea {
+    height: 25px;
+    width: 140px;
+    position: relative;
+    float: left;
+
+}
+.pwdArea .input_tips {
+    display: block;
+    color: #AAAAAA;
+    cursor: text;
+    font-size: 12px;
+    left: 10px;
+    line-height: 16px;
+    position: absolute;
+    top: 3px;
+}
+.pwdArea .inputOuter {
+    height: 20px;
+    width: 130px;
+    margin-left: 8px;
+}
+.pwdArea .inputOuter .passForCommon {
+    background: none repeat scroll 0 0 transparent;
+    position: relative;
+    z-index: 5;
+}
+.ts-User .UserRegText {
+    width: 130px;
+}
+.pwdArea .inputOuter {
+    height: 20px;
+    width: 130px;
+    margin-left: 8px;
+}
+.pwdArea .inputOuter .passForCommon {
+    background: none repeat scroll 0 0 transparent;
+    position: relative;
+    z-index: 5;
+}
+.ts-User .ts-Users .ts-UpassConfirm {
+    margin-Left: -5px;
+}
+.ts-User .ts-Users .ts-UCode {
+    margin-Left: 14px;
+}
+.ts-User .UserCode {
+    width: 60px;
+}
+.ts-User .ts-Users .ts-UserReg a {
+    color: #5144ce;
+}
+.ts-User .ts-Users .ts-Agreement {
+    margin-Left: 68px;
+}
+.ts-User .MobileUserText {
+    width: 130px;
+}
+.ts-User .submitMargintext {
+    margin-Left: 140px;
+    margin-Top: 10px;
+}
+.ts-User .RegSubmit {
+    width: 102px;
+    height: 32px;
+    border: 0px;
+    color: #000;
+    font-size: 14px;
+    cursor: pointer;
+    line-height: 32px;
+}
+.tosnmiddle_btn {
+    background: url(../img/login/tosn_btnmiddle.png) no-repeat 0 -96px;
+}
+.ts-User .ts-UserBottom {
+    margin-top: 20px;
+    width: 950px;
+    float: left;
+}
+.ts-User .ts-UserBottom h3 {
+    color: #0aa1ed;
+    display: block;
+    border-bottom: #c5c4d1 2px solid;
+    font-size: 16px;
+    padding-bottom: 5px;
+    font-weight: normal;
+}
+.ts-User .ts-UserBottom ul {
+    padding-left: 50px;
+    padding-top: 20px;
+}
+.ts-User .ts-UserBottom ul li {
+    float: left;
+    margin-right: 60px;
+}
+.ts-User .ts-UserBottom h2 {
+    display: block;
+    background: url(../img/mainProduct/ico-reminder.png) left no-repeat;
+    text-indent: 10px;
+    color: #3f3b67;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.ts-User .ts-UserBottom p {
+    color: #555555;
+    line-height: 25px;
+    margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

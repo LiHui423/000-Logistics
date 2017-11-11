@@ -266,19 +266,20 @@
                     请登录或注册<span>只需15秒</span>
                 </h2>
                 <div class="ts-UserReg">
-                    <div class="title mobileRe" style="border-bottom: 1px solid white; background: url(&quot;&quot;) repeat-x;">
+                    <div class="title mobileRe" style="border-bottom: 1px solid white; background:repeat-x;">
                         <h3>手机注册</h3>
                     </div>
-                    <div class="title commonRe" style="border-bottom: 1px solid rgb(217, 217, 217); background: url(&quot;../images/tab.png&quot;) repeat-x;">
+                    <div class="title commonRe" style="border-bottom: 1px solid rgb(217, 217, 217); background:repeat-x;">
                         <h3>普通注册</h3>
                     </div>
                     <form id="formregist">
                         <div class="common-regist" style="display: none;">
                             <ul>
 
-                                <li><em>* </em>&nbsp;邮 箱 地 址:&nbsp;<input type="text" class="d_text UserText inputFocus flagEmail iGrays" name="user.email" value="请输入常用邮箱,用于找回密码" ov="请输入常用邮箱,用于找回密码" id="regEmail" style="width: 130px;"> <span id="msgEmail" class="leftspan mailspan" style="color: red"> </span><br></li>
+                                <li>
+                                    <em>* </em>&nbsp;邮 箱 地 址:&nbsp;<input type="text" class="d_text UserText inputFocus flagEmail iGrays" name="user.email" value="请输入常用邮箱,用于找回密码" ov="请输入常用邮箱,用于找回密码" id="regEmail" style="width: 130px;"> <span id="msgEmail" class="leftspan mailspan" style="color: red"> </span><br></li>
                                 <li class="ts-Upass"><em>* </em>
-                                    <div class="pwdText">&nbsp;密 码:</div>&nbsp;
+                                    <div class="pwdText">&nbsp;&nbsp;&nbsp;&nbsp;密 码:</div>&nbsp;
                                     <div id="pwdArea" class="pwdArea">
                                         <label id="pwd_tips" class="input_tips tips" for="regPass" style="display: block;">6-16个字符</label>
                                         <div class="inputOuter">
@@ -306,17 +307,21 @@
                     <form id="mobileFormRegist">
                         <div class="mobile-regist" style="display: block;">
                             <ul>
-                                <li class="ts-Uname"><em>* </em>&nbsp;手 机 号:&nbsp;<input type="text" class="d_text MobileUserText  inputFocus flagName checkMobile iGrays" value="请输入11位手机号码" ov="请输入11位手机号码" name="user.telephone" maxlength="11" id="telephone"> <span class="leftspan namespan msgMobile" style="color: red"> </span></li>
+                                <li class="ts-Uname">
+                                    <em>* </em>
+                                    <div class="pwdText">&nbsp;手 机 号:</div>
+                                    <input type="text" class="d_text MobileUserText  inputFocus flagName checkMobile iGrays" value="请输入11位手机号码" ov="请输入11位手机号码" name="user.telephone" maxlength="11" id="telephone" style="margin-left:17px;"> <span class="leftspan namespan msgMobile" style="color: red"> </span></li>
                                 <li class="ts-Upass"><em>* </em>
                                     <div class="pwdText">&nbsp;密 码:</div>
                                     <div id="pwdArea" class="pwdArea">
-                                        <label class="input_tips tipsMobile" for="regPassForMobile" style="display: block; left: 8px;">6-16个字符</label>
+                                        <label class="input_tips tipsMobile" for="regPassForMobile" style="display: block; left: 35px;">6-16个字符</label>
                                         <div class="inputOuter" style="margin-left: 7px;">
-                                            <input id="regPassForMobile" class="d_text UserRegText check checkPass pass" type="password" maxlength="16" value="" name="user.password">
+                                            <input id="regPassForMobile" style="margin-left:27px;"class="d_text UserRegText check checkPass pass" type="password" maxlength="16" value="" name="user.password">
                                         </div>
                                     </div> <span class="msgPass" style="color: red"></span></li>
-                                <li class="ts-UpassConfirm"><em>* </em>
-                                    <div class="pwdText">&nbsp;确 认 密 码:</div>
+                                <li class="ts-UpassConfirm">
+                                    <em>* </em>
+                                    <div class="pwdText" style="left:2px;">&nbsp;确 认 密 码:</div>
                                     <div id="pwdArea" class="pwdArea">
                                         <label class="input_tips tipsMobileConfirm" for="regPassConfirmForMobile" style="display: block; left: 8px;">和登录密码一致</label>
                                         <div class="inputOuter" style="margin-left: 7px;">
@@ -324,8 +329,8 @@
                                         </div>
                                     </div> <span class="msgPassConfirm" style="color: red"></span></li>
 
-                                <li id="regMobileLi" class="ts-UCode li_mr_code" style="margin-left: 10px;display:none"><em>*
-                                </em>&nbsp;验 证 码:&nbsp; <input name="" type="text" maxlength="4" class="d_text UserCode" id="regmCodes"> <span style="display: none" id="txt_flag"></span> <img id="authCode_mr" onclick="refreshImg(&quot;authCode_mr&quot;)" src="../user/authCode.action?d=1510146439724"> <a href="javascript:void(0)" onclick="refreshImg(&quot;authCode_mr&quot;)">看不清,换一张?</a>
+                                <li id="regMobileLi" class="ts-UCode li_mr_code" style="margin-left: 10px;display:block"><em>*
+                                </em>&nbsp;验 证 码:&nbsp; <input name="" type="text" maxlength="4" class="d_text UserCode" id="regmCodes"> <span style="display: none" id="txt_flag"></span> <img id="authCode_mr"> <a href="javascript:void(0)" onclick="refreshImg(&quot;authCode_mr&quot;)">看不清,换一张?</a>
                                 </li>
 
                                 <li class="ts-UCode" style="margin-left: -2px;"><em>*
@@ -352,14 +357,14 @@
 
                             <ul>
                                 <li><label class="tf_loglabel">用 户 名：</label> <input type="text" class="d_text UserText inputFocus iGrays" name="user.userName" value="用户名/email/手机号" ov="用户名/email/手机号" id="LoginUsername"></li>
-                                <li><label class="tf_loglabel" style="display: block"><div class="pwdText" style="margin-left: 35px;">密 码：</div> </label>
+                                <li><label class="tf_loglabel" style="display: block"><div class="pwdText">密 码：</div> </label>
                                     <div id="pwdArea" class="pwdArea">
-                                        <label class="input_tips tipslogin" for="LoginPass" style="display: block; left: 7px;">6-16个字符</label>
+                                        <label class="input_tips tipslogin" for="LoginPass" style="display: block; left: 20px;">6-16个字符</label>
                                         <div class="inputOuter" style="margin-left: 5px;">
-                                            <input id="LoginPass" class="d_text UserRegText pass" type="password" maxlength="16" value="" name="user.password">
+                                            <input style="margin-left:13px;" id="LoginPass" class="d_text UserRegText pass" type="password" maxlength="16" value="" name="user.password">
                                         </div>
-                                    </div> <span id="s_forgetPwd"><a href="../user/toWriteNameEmail.action" style="margin-left: 5px;">忘记密码?</a> </span></li>
-                                <li id="li_authcode" style="height: 30px;display:none "><label class="tf_loglabel">验 证 码：</label> <input name="authCode" maxlength="4" type="text" class="d_text UserCode" id="loginCodes"> <input type="hidden" name="loginBefActionName" value=""> <img id="authCode1" onclick="changeImgLogin();"> <a href="#" onclick="changeImgLogin();">看不清,换一张?</a> <a href="../user/toWriteNameEmail.action">忘记密码?</a></li>
+                                    </div> <span id="s_forgetPwd"><a href="../user/toWriteNameEmail.action" style="margin-left: 15px;">忘记密码?</a> </span></li>
+                                <li id="li_authcode" style="height: 30px;display:block "><label class="tf_loglabel">验 证 码：</label> <input name="authCode" maxlength="4" type="text" class="d_text UserCode" id="loginCodes"> <input type="hidden" name="loginBefActionName" value=""> <img id="authCode1" onclick="changeImgLogin();"> <a href="#" onclick="changeImgLogin();">看不清,换一张?</a> <a href="../user/toWriteNameEmail.action">忘记密码?</a></li>
                                 <li><span class="tf_lip" id="sp_login_loading"></span></li>
                             </ul>
                             <div>
@@ -367,9 +372,9 @@
                             </div>
                             <div style="margin-top: 7px;">
                                 <span id="qqLoginBtn" style="display: none"></span> <span style="vertical-align: middle; margin-left: 120px;">使用合作账号登录：</span>
-                                <a href="../otherlogin/otherlogin.action?bindingType=qq"> <img src="../images/Connect_logo_1.png" style="cursor: pointer;">
+                                <a href="../otherlogin/otherlogin.action?bindingType=qq"> <img src="img/Connect_logo_1.png" style="cursor: pointer;">
                                 </a> <a href="../otherlogin/otherlogin.action?bindingType=weibo">
-                                <img src="../images/sina_logo.png" style="cursor: pointer; margin-left: 10px;">
+                                <img src="img/sina_logo.png" style="cursor: pointer; margin-left: 10px;">
                             </a>
                                 <!-- <a href="../otherlogin/otherlogin.action?bindingType=taobao">
                         <img  alt="淘宝账号登录" src="../images/taobao.png" style="cursor: pointer; width: 16px; height: 16px; margin-left:10px;"></a> -->
@@ -480,5 +485,10 @@
         }
     }
     window.onload=menuFix;
+    var elems=$(".notLogin");
+    elems.on("click","a",function(e){
+        e.preventDefault();
+        window.location.href='login.html';
+    });
 </script>
 </html>

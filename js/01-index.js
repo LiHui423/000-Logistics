@@ -2,7 +2,6 @@
 (()=>{
   ajax("get","data/banners.php","")
     .then(data=>{
-        console.log(data);
     const LIWIDTH=960;
     var htmlImgs="";//保存图片li的HTML片段
     //for(var i=0;i<data.length;i++){
@@ -53,7 +52,7 @@
             $("#indicators>li:eq("+i+")")
             .addClass("hover")
             .siblings().removeClass("hover");
-          },100);
+          },50);
           $("#indicators>li:eq("+i+")")
             .addClass("hover")
             .siblings().removeClass("hover");
