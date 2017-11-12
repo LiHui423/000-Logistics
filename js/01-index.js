@@ -87,7 +87,7 @@
       $(".goTop").css("left", l - w).css("bottom", "295px");
       $(".goTop").fadeIn(600);
     } else {
-      $(".askTable").fadeOut(600);
+      /*$(".askTable").fadeOut(600);*/
       $(".goTop").fadeOut(600);
     }
   });
