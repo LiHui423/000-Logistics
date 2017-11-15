@@ -1,5 +1,14 @@
-//加载广告轮播
+//加载header
 (()=>{
+	ajax("get","02-header.html","","text")
+		.then(html=>{
+		document.getElementById("header")
+				.innerHTML=html;
+
+	    });
+
+//加载广告轮播
+
   ajax("get","data/banners.php","")
     .then(data=>{
     const LIWIDTH=960;
@@ -77,19 +86,16 @@
               .siblings().removeClass("hover");
       }
     })
-  })
-
-  // 滚动条滚动
-  $(window).scroll(function() {
-    if ($(window).scrollTop() > 100) {
-      var l = 1460;
-      var w = $(".goTop").width();
-      $(".goTop").css("left", l - w).css("bottom", "295px");
-      $(".goTop").fadeIn(600);
-    } else {
-      /*$(".askTable").fadeOut(600);*/
-      $(".goTop").fadeOut(600);
-    }
-  });
-
+    })
 })();
+
+
+
+
+
+
+
+
+
+
+

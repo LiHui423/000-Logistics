@@ -59,3 +59,9 @@ html, body, p, th, td, input, select, textarea, button, div {
 	margin-top:20px;
 	margin-bottom:15px;
 }
+.fixed_nav{
+	position:fixed;
+	z-index: 6;
+	transition: all 0.5s;
+
+}
